@@ -1,0 +1,17 @@
+# Underglow for Ghostty
+#
+# Merge this snippet into your Ghostty config file:
+#   ~/.config/ghostty/config
+#
+# The theme file must be installed first, with this exact name (no extension):
+#   ~/.config/ghostty/themes/underglow
+#
+# Copy it from this repository, e.g.:
+#   mkdir -p ~/.config/ghostty/themes
+#   cp ghostty/underglow ~/.config/ghostty/themes/underglow
+#
+# Then select the theme:
+theme = underglow
+#
+# Reload the configuration with Cmd+Shift+, (macOS).
+# Verify the theme is available with: ghostty +list-themes

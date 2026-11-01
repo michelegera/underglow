@@ -1,0 +1,49 @@
+# Underglow — a Ghostty colour scheme
+#
+# Derived from a photo of a dark desk with RGB keyboard underglow:
+# violet/lavender glow, electric blue underglow, teal-cyan terminal glow,
+# an amber trackball and a crimson trackball on a near-black desk.
+#
+# Install path: ~/.config/ghostty/themes/underglow
+# The file name is the theme name (no extension): select it with `theme = underglow`.
+
+# Surfaces
+background = #0B0D14
+foreground = #C6CADF
+
+# Cursor
+cursor-color = #9D8CFF
+cursor-text = #0B0D14
+cursor-style = block
+cursor-style-blink = true
+
+# Selection
+selection-background = #2A2F47
+selection-foreground = #E7EAF6
+
+# ANSI palette (0-7 normal, 8-15 bright)
+palette = 0=#14161F
+palette = 1=#E2515F
+palette = 2=#45C2A0
+palette = 3=#E0A93C
+palette = 4=#4C8DF6
+palette = 5=#C26BE8
+palette = 6=#35B6D8
+palette = 7=#B9BED4
+palette = 8=#646C88
+palette = 9=#FF8B96
+palette = 10=#7EE4C6
+palette = 11=#F5CE7E
+palette = 12=#89B7FF
+palette = 13=#E4A9FF
+palette = 14=#7BDCF3
+palette = 15=#E7EAF6
+
+# Derive the extended 256-colour palette from the base 16
+palette-generate = true
+
+# Bold text uses the bright palette entries
+bold-color = bright
+
+# Fully opaque background; use background-opacity for transparency
+background-opacity = 1
