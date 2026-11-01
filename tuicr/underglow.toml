@@ -1,0 +1,69 @@
+# Underglow local theme for tuicr.
+# Flat key/value schema is intentional: local themes use the same top-level keys
+# that tuicr validates at load time, so the file stays easy to copy and edit.
+# Every key of tuicr's Theme struct must be present or the theme is rejected.
+
+# Panel chrome and base foregrounds.
+panel_bg = "#12141F"
+bg_highlight = "#222739"
+fg_primary = "#C6CADF"
+fg_secondary = "#98A0B8"
+fg_dim = "#646C88"
+
+# Diff rendering.
+diff_add = "#45C2A0"
+diff_add_bg = "#183533"
+diff_del = "#E2515F"
+diff_del_bg = "#3A1C24"
+diff_context = "#C6CADF"
+diff_hunk_header = "#4C8DF6"
+expanded_context_fg = "#646C88"
+
+# Syntax backgrounds for added and removed lines.
+syntax_add_bg = "#183533"
+syntax_del_bg = "#3A1C24"
+# Optional syntax theme, resolved relative to this file.
+syntax_theme = "underglow-syntax.tmTheme"
+
+# File status markers.
+file_added = "#45C2A0"
+file_modified = "#E0A93C"
+file_deleted = "#E2515F"
+file_renamed = "#4C8DF6"
+
+# Review states.
+reviewed = "#45C2A0"
+pending = "#E0A93C"
+
+# Comment label accents.
+comment_note = "#4C8DF6"
+comment_suggestion = "#35B6D8"
+comment_issue = "#E2515F"
+comment_praise = "#45C2A0"
+
+# Chrome: borders, status bar, cursor, branch, help.
+border_focused = "#9D8CFF"
+border_unfocused = "#222739"
+status_bar_bg = "#12141F"
+cursor_color = "#E0A93C"
+cursor_line_bg = "#191C2A"
+search_match_bg = "#2A2F47"
+branch_name = "#C26BE8"
+help_indicator = "#646C88"
+
+# Inline messages and the update badge.
+message_info_fg = "#0B0D14"
+message_info_bg = "#9D8CFF"
+message_warning_fg = "#0B0D14"
+message_warning_bg = "#E0A93C"
+message_error_fg = "#E7EAF6"
+message_error_bg = "#E2515F"
+update_badge_fg = "#0B0D14"
+update_badge_bg = "#E0A93C"
+
+# Mode indicator.
+mode_fg = "#0B0D14"
+mode_bg = "#4C8DF6"
+
+# Selection marker.
+selection_marker = "#9D8CFF"
