@@ -1,0 +1,49 @@
+# Underglow — lazygit colour scheme
+#
+# Derived from a photo of a dark desk lit by RGB keyboard underglow:
+# violet/lavender glow, electric blue underglow, teal-cyan terminal glow,
+# an amber trackball and a crimson trackball, on a near-black desk.
+#
+# This file contains ONLY the `gui.theme` block. It is a fragment, not a
+# complete lazygit config: MERGE it into your own config (see README.md).
+# Replacing your whole config would delete your keybindings and custom commands.
+#
+# To try it without touching your config:
+#   lazygit --use-config-file=/path/to/underglow/lazygit/config.yml
+
+gui:
+  theme:
+    # Violet keyboard underglow — the focused panel border.
+    activeBorderColor: ['#9D8CFF', bold]
+    # Near-black desk, just lifted off the background.
+    inactiveBorderColor: ['#222739']
+    # Amber trackball, while a search is active.
+    searchingActiveBorderColor: ['#E0A93C', bold]
+    # Electric blue underglow.
+    optionsTextColor: ['#4C8DF6']
+    # Selected line: bright text on the violet-tinted selection.
+    selectedLineFgColor: ['#E7EAF6']
+    selectedLineBgColor: ['#2A2F47']
+    # Dimmer selection for panels that are not focused.
+    inactiveViewSelectedLineBgColor: ['#191C2A']
+    # Cherry-picked commit: near-black text on lavender.
+    cherryPickedCommitFgColor: ['#0B0D14']
+    cherryPickedCommitBgColor: ['#C3BAFF']
+    # Marked base commit: near-black text on amber.
+    markedBaseCommitFgColor: ['#0B0D14']
+    markedBaseCommitBgColor: ['#E0A93C']
+    # Unstaged changes: crimson trackball.
+    unstagedChangesColor: ['#E2515F']
+    # Default text colour for everything else.
+    defaultFgColor: ['#C6CADF']
+    # Commit authors: magenta.
+    authorColors:
+      '*': '#C26BE8'
+    # Branch names in the branches panel.
+    branchColorPatterns:
+      '^\*\s': '#45C2A0'
+      '^\+\s': '#45C2A0'
+      '^-\s': '#E2515F'
+      ' -> ': '#E0A93C'
+      '^remotes/': '#35B6D8'
+      '^tags/': '#C26BE8'
