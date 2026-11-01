@@ -2,9 +2,15 @@
 
 A colour scheme for command-line tools, built from a single palette.
 
-Underglow is a dark scheme sampled from a photograph of a desk lit by RGB underglow: a violet
+Underglow is a dark scheme inspired by a photograph of a desk lit by RGB underglow: a violet
 and periwinkle glow behind the keyboard, an electric blue wash along the keycaps, a teal terminal
 on the screen, an amber trackball and a crimson one, all sitting on a near-black wooden desk.
+
+![The desk the Underglow palette is drawn from](screenshots/underglow.jpg)
+
+_Photo by [ZSA](https://www.zsa.io/). The palette — the violet underglow, the blue wash along the
+keycaps, the teal terminal, the amber and crimson trackballs and the near-black desk — is sampled
+from this image._
 
 Every tool in this repository renders from the same base colours plus six derived tints, so a file
 listing, a diff, a syntax-highlighted source file and a status bar all read as one system.
@@ -128,5 +134,6 @@ Each tool uses the subset of tints its own slots call for, so no single scheme u
 ├── fzf/          fzf.conf
 ├── ghostty/      underglow, config
 ├── lazygit/      config.yml
+├── screenshots/  underglow.jpg
 └── tuicr/        underglow.toml, underglow-syntax.tmTheme
 ```

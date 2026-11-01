@@ -8,6 +8,8 @@ and a crimson trackball.
 The theme is a single YAML file, `theme.yml`, covering file kinds, permissions, sizes, users,
 links, Git status, security contexts, file types, and the scalar metadata colours.
 
+Palette inspired by a photograph by [ZSA](https://www.zsa.io/) — [see the source image](../screenshots/underglow.jpg).
+
 ## Requirements
 
 - `eza` 0.21 or newer, with YAML theme file support.

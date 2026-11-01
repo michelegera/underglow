@@ -8,6 +8,8 @@ trackball and a crimson one on a near-black surface.
 The palette leans on violet and cyan accents over a near-black background
 (`#0B0D14`), with amber for constants and crimson for deletions in diffs.
 
+Palette inspired by a photograph by [ZSA](https://www.zsa.io/) — [see the source image](../screenshots/underglow.jpg).
+
 ## Requirements
 
 - `bat` >= 0.16

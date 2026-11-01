@@ -4,6 +4,8 @@ A Ghostty colour scheme derived from a photo of a dark desk with RGB keyboard
 underglow: violet/lavender glow, electric blue underglow, teal-cyan terminal
 glow, an amber trackball and a crimson trackball on a near-black desk.
 
+Palette inspired by a photograph by [ZSA](https://www.zsa.io/) — [see the source image](../screenshots/underglow.jpg).
+
 The background is near-black (`#0B0D14`), the ANSI palette is built from the
 glow colours, and the 256-colour range is generated from the base 16 with
 `palette-generate = true`.

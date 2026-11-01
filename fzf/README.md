@@ -5,6 +5,8 @@ palette derived from a photo of a dark desk lit by RGB keyboard underglow: viole
 electric blue underglow, teal-cyan terminal glow, an amber trackball and a crimson trackball on a
 near-black desk.
 
+Palette inspired by a photograph by [ZSA](https://www.zsa.io/) — [see the source image](../screenshots/underglow.jpg).
+
 fzf has no theme-file format. The portable way to ship a scheme is an **options file** that fzf
 reads through the `FZF_DEFAULT_OPTS_FILE` environment variable ("The location of the file that
 contains the default options" — `man fzf`). The file contains plain fzf command-line options, one

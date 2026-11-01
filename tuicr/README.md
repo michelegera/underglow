@@ -4,6 +4,8 @@ A dark colour scheme for [tuicr](https://github.com/michelegera/tuicr), derived 
 dark desk lit by RGB keyboard underglow: violet/lavender glow, electric blue underglow, a teal-cyan
 terminal glow, and an amber and a crimson trackball on a near-black desk surface.
 
+Palette inspired by a photograph by [ZSA](https://www.zsa.io/) — [see the source image](../screenshots/underglow.jpg).
+
 The scheme ships two files:
 
 | File | Purpose |
